@@ -1,449 +1,442 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2? family= Roboto:wght@100;400;700;900 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;400;700;900 & display=swap');
-
 /* font-family: 'Roboto', sans-serif; */
-
-.navbar-brand{
-    float: left;
-    width: 200px;
-    height: 80px;
-    background-image: url(../Img/Logo\(SantiagoCornador\).png);
-    background-size: auto;
-    margin-top: -20px;
+.navbar-brand {
+  float: left;
+  width: 200px;
+  height: 80px;
+  background-image: url(../Img/Logo\(SantiagoCornador\).png);
+  background-size: auto;
+  margin-top: -20px;
 }
 
 .navbar {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
-.nav-link{
-    color: #5f5f5f !important;
-    font-family: 'Roboto', sans-serif;
+.nav-link {
+  color: #5f5f5f !important;
+  font-family: "Roboto", sans-serif;
 }
 
 .navbar-dark .navbar-toggler {
-    color: #ffffffdd;
-    border-color: #ffffff;
+  color: rgba(255, 255, 255, 0.8666666667);
+  border-color: #ffffff;
 }
 
 .navbar-dark .navbar-toggler-icon {
-    background-image: url(../Img/three-layers.png)
+  background-image: url(../Img/three-layers.png);
 }
 
-main{
-    height: 400px;
+main {
+  height: 400px;
 }
 
-.titulo{
-    background-color: #ffffff00;
-    color: #5f5f5f;
-    font-family: 'Roboto', sans-serif;
-    float: left;
-    padding: 50px;
+.titulo {
+  background-color: rgba(255, 255, 255, 0);
+  color: #5f5f5f;
+  font-family: "Roboto", sans-serif;
+  float: left;
+  padding: 50px;
 }
 
-.titulo h1{
-    font-family: 'Roboto', sans-serif;
-    font-size: 28px;
-    margin-bottom: 10px;
-    width: 80%;
-    margin-bottom: 20px;
-
+.titulo h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  margin-bottom: 10px;
+  width: 80%;
+  margin-bottom: 20px;
 }
 
-.titulo p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    width: 70%;
-    margin-bottom: 40px;
+.titulo p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  width: 70%;
+  margin-bottom: 40px;
 }
 
-.titulo a{
-    background-color: rgb(255, 255, 255);
-    border: 2px solid #5f5f5f;
-    color: #5f5f5f;
-    text-decoration: none;
-    padding: 10px 20px;
-    text-transform: capitalize;
-    border-radius: 20px;
+.titulo a {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #5f5f5f;
+  color: #5f5f5f;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  border-radius: 20px;
 }
 
-.titulo a:hover{
-    background-color: #333;
-    border: 2px solid #333;
-    color: #ffffff;
+.titulo a:hover {
+  background-color: #333;
+  border: 2px solid #333;
+  color: #ffffff;
 }
 
-.imagenprincipal{
-    width: 100%;
-    height: 350px;
-    background-image: url(../Img/concepto-creativo-estudio-diseno-ocupacion-ideas-fotografia.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    margin-top: 20px;
+.imagenprincipal {
+  width: 100%;
+  height: 350px;
+  background-image: url(../Img/concepto-creativo-estudio-diseno-ocupacion-ideas-fotografia.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 20px;
 }
 
-.imagenprincipal h2{
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    font-size: 40px;
-    color: #ffffff;
-    text-transform:uppercase;
-    padding-top: 150px;
-    text-shadow: 0px 0px 20px rgb(0, 0, 0);
+.imagenprincipal h2 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-top: 150px;
+  text-shadow: 0px 0px 20px rgb(0, 0, 0);
 }
 
-.nosotros{
-    margin: 50px;
+.nosotros {
+  margin: 50px;
 }
 
-.nosotros .columna1 h6{
-    height: 30px;
-    width: 150px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    padding-top: 6px;
-    margin-bottom: 20px;
-    font-size: 14px;
-    background-color: rgb(219, 22, 22);
-    color: #ffffff;
-    border-radius: 50px;
+.nosotros .columna1 h6 {
+  height: 30px;
+  width: 150px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 6px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  background-color: rgb(219, 22, 22);
+  color: #ffffff;
+  border-radius: 50px;
 }
 
-
-.nosotros .columna2{
-    background-image: url(/Img/Nosotros_img.jpg);
-    margin-bottom: 20px;
-    height: 150px;
-    max-width: 150px;
-    background-size: cover; 
-    border-radius: 150px;
+.nosotros .columna2 {
+  background-image: url(/Img/Nosotros_img.jpg);
+  margin-bottom: 20px;
+  height: 150px;
+  max-width: 150px;
+  background-size: cover;
+  border-radius: 150px;
 }
 
-.nosotros .columna3{
-    font-family: 'Roboto', sans-serif;
-    color: #5f5f5f;
-    }
-
-.nosotros .columna3 h3{
-    font-size: 26px;
-    font-weight: 800;
-    padding-left: 20px;
+.nosotros .columna3 {
+  font-family: "Roboto", sans-serif;
+  color: #5f5f5f;
 }
 
-.nosotros .columna3 p{
-    font-size: 16px;
-    font-weight: 400;
-    padding-left: 20px;
-
+.nosotros .columna3 h3 {
+  font-size: 26px;
+  font-weight: 800;
+  padding-left: 20px;
 }
 
-.nosotros .columna3 .boton{
-    background-color: rgb(255, 255, 255);
-    border: 2px solid #5f5f5f;
-    color: #5f5f5f;
-    text-decoration: none;
-    padding: 10px 20px;
-    text-transform: capitalize;
-    border-radius: 20px;
+.nosotros .columna3 p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 20px;
 }
 
-.nosotros .columna3 .boton:hover{
-    background-color: #333;
-    border: 2px solid #333;
-    color: #ffffff;
+.nosotros .columna3 .boton {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #5f5f5f;
+  color: #5f5f5f;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  border-radius: 20px;
 }
 
-#galeria{
-    margin: 0px !important;
-}
-#galeria img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    
+.nosotros .columna3 .boton:hover {
+  background-color: #333;
+  border: 2px solid #333;
+  color: #ffffff;
 }
 
-.imagenprincipal_servicios{
-    width: 100%;
-    height: 350px;
-    background-image: url(../Img/ImagenPrincipalServicios.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    margin-top: 20px;
+#galeria {
+  margin: 0px !important;
 }
 
-.imagenprincipal_servicios h2{
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    font-size: 40px;
-    color: #ffffff;
-    text-transform:uppercase;
-    padding-top: 150px;
-    text-shadow: 0px 0px 20px rgb(0, 0, 0);
+#galeria img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.card{
-    margin: 40px 40px;
-}
-.card-body .card-img{
-    max-width: 700px;
-    height: 400px;
-    background-color: #5f5f5f;
-    background-image: url(../Img/Trabajo_1.jpeg);
-    background-position: center;
-    transition: 1.1s;
+.imagenprincipal_servicios {
+  width: 100%;
+  height: 350px;
+  background-image: url(../Img/ImagenPrincipalServicios.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 20px;
 }
 
-.card-body .card-img:hover{
-    transform: scale(1.03);
-    transition: 1.1s;
+.imagenprincipal_servicios h2 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-top: 150px;
+  text-shadow: 0px 0px 20px rgb(0, 0, 0);
 }
 
-.card-body .card-img2{
-    max-width: 700px;
-    height: 400px;
-    background-color: #5f5f5f;
-    background-image: url(../Img/Trabajo_2.jpeg);
-    background-position: center;
-    transition: 1.1s;
+.card {
+  margin: 40px 40px;
 }
 
-.card-body .card-img2:hover{
-    transform: scale(1.03);
-    transition: 1.1s;
+.card-body .card-img {
+  max-width: 700px;
+  height: 400px;
+  background-color: #5f5f5f;
+  background-image: url(../Img/Trabajo_1.jpeg);
+  background-position: center;
+  transition: 1.1s;
 }
 
-.card-body .card-img3{
-    max-width: 700px;
-    height: 400px;
-    background-color: #5f5f5f;
-    background-image: url(../Img/Trabajo_3.jpeg);
-    background-position: center;
-    transition: 1.1s;
+.card-body .card-img:hover {
+  transform: scale(1.03);
+  transition: 1.1s;
 }
 
-.card-body .card-img3:hover{
-    transform: scale(1.03);
-    transition: 1.1s;
+.card-body .card-img2 {
+  max-width: 700px;
+  height: 400px;
+  background-color: #5f5f5f;
+  background-image: url(../Img/Trabajo_2.jpeg);
+  background-position: center;
+  transition: 1.1s;
 }
 
-.card-body .card-img4{
-    max-width: 700px;
-    height: 400px;
-    background-color: #5f5f5f;
-    background-image: url(../Img/Trabajo_4.jpeg);
-    background-position: center;
-    transition: 1.1s;
+.card-body .card-img2:hover {
+  transform: scale(1.03);
+  transition: 1.1s;
 }
 
-.card-body .card-img4:hover{
-    transform: scale(1.03);
-    transition: 1.1s;
+.card-body .card-img3 {
+  max-width: 700px;
+  height: 400px;
+  background-color: #5f5f5f;
+  background-image: url(../Img/Trabajo_3.jpeg);
+  background-position: center;
+  transition: 1.1s;
 }
 
-.card-title{
-    font-family: 'Roboto', sans-serif;
-    color: #5f5f5f;
-    font-size: 22px;
-    font-weight: 600;
-    margin-top: 15px;
+.card-body .card-img3:hover {
+  transform: scale(1.03);
+  transition: 1.1s;
 }
 
-.card-text{
-    font-family: 'Roboto', sans-serif;
-    color: #5f5f5f;
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 15px;
+.card-body .card-img4 {
+  max-width: 700px;
+  height: 400px;
+  background-color: #5f5f5f;
+  background-image: url(../Img/Trabajo_4.jpeg);
+  background-position: center;
+  transition: 1.1s;
 }
 
-.card-body a{
-    background-color: rgb(255, 255, 255);
-    border: 2px solid #5f5f5f;
-    color: #5f5f5f;
-    text-decoration: none;
-    padding: 10px 20px;
-    text-transform: capitalize;
-    border-radius: 20px;
-    transition: 0.5s;
+.card-body .card-img4:hover {
+  transform: scale(1.03);
+  transition: 1.1s;
 }
 
-.card-body a:hover{
-    background-color: #333;
-    border: 2px solid #333;
-    color: #ffffff;
-    transform: rotate(5deg);
-    transition: 0.5s;
+.card-title {
+  font-family: "Roboto", sans-serif;
+  color: #5f5f5f;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 15px;
 }
 
-.nosotros{
-    background-color: #ffffff;
-    width: 70%;
-    height: 500px;
-    margin-left: 200px;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 50px;
-    margin-top: 70px;
+.card-text {
+  font-family: "Roboto", sans-serif;
+  color: #5f5f5f;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 15px;
 }
 
-.nosotros h2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 45px;
-    color: #5f5f5f;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    width: 80%;
+.card-body a {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #5f5f5f;
+  color: #5f5f5f;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  border-radius: 20px;
+  transition: 0.5s;
 }
 
-.nosotrosimg{
-    margin-top: 0px;
-    margin-right: 80px;
-    float: left;
+.card-body a:hover {
+  background-color: #333;
+  border: 2px solid #333;
+  color: #ffffff;
+  transform: rotate(5deg);
+  transition: 0.5s;
+}
+
+.nosotros {
+  background-color: #ffffff;
+  width: 70%;
+  height: 500px;
+  margin-left: 200px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+.nosotros h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  color: #5f5f5f;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.nosotrosimg {
+  margin-top: 0px;
+  margin-right: 80px;
+  float: left;
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+}
+
+.nosotros p {
+  color: #5f5f5f;
+  font-size: 16px;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+.nosotros a {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #5f5f5f;
+  color: #5f5f5f;
+  margin-top: 20px;
+  text-decoration: none;
+  float: right;
+  margin-top: 50px;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  border-radius: 20px;
+}
+
+.nosotros a:hover {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.mapa {
+  background-color: #a6a6a6;
+  height: 700px;
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #5f5f5f;
+  width: 500px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+.formulario h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  color: #5f5f5f;
+  margin-bottom: 20px;
+}
+
+.textform1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #5f5f5f;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+input, textarea {
+  border: 0;
+  outline: none;
+  padding-top: 5px;
+}
+
+.casillaform {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.enviar {
+  background-color: #333;
+  width: 120px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.contacto {
+  margin: 50px;
+  color: #5f5f5f;
+}
+
+.contacto h3 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.contacto p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contacto .formulario {
+  width: 40px;
+  height: auto;
+}
+
+@media only screen and (min-width: 480px) {
+  .titulo h1 {
+    font-size: 34px;
+  }
+  main {
+    height: 550px;
+  }
+  .formulario {
     width: 300px;
-    height: 300px;
-    border-radius: 300px;
+  }
 }
-
-.nosotros p{
-    color: #5f5f5f;
-    font-size: 16px;
-    margin-left: 70px;
-    margin-top: 50px;
+@media only screen and (min-width: 767px) {
+  .titulo h1 {
+    font-size: 40px;
+  }
+  main {
+    height: 450px;
+  }
 }
-
-.nosotros a{
-    background-color: rgb(255, 255, 255);
-    border: 2px solid #5f5f5f;
-    color: #5f5f5f;
-    margin-top: 20px;
-    text-decoration: none;
-    float: right;
-    margin-top: 50px;
-    padding: 10px 20px;
-    text-transform: capitalize;
-    border-radius: 20px;
-}
-
-.nosotros a:hover{
-    background-color: #333;
-    color: #ffffff;
-}
-
-.mapa{
-    background-color: #a6a6a6;
-    height: 700px;
-    margin-top: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.formulario{
-    background-color: rgb(255, 255, 255);
-    border: 2px solid #5f5f5f;
-    width: 500px;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 25px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.formulario h2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 28px;
-    color: #5f5f5f;
-    margin-bottom: 20px;
-}
-
-.textform1{
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: #5f5f5f;
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-
-input, textarea{
-    border: 0;
-    outline:none;
-    padding-top: 5px;
-}
-.casillaform{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    background-color: #f7f7f7;
-    color: #333;
-    padding: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-
-.enviar{
-    background-color: #333;
-    width: 120px;
-    height: 40px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    color: #ffffff;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.contacto{
-    margin: 50px;
-    color: #5f5f5f;
-}
-
-.contacto h3{
-    font-size: 26px;
-    font-weight: 500;
-}
-
-.contacto  p{
-    font-size: 16px;
-    font-weight: 400;
-
-}
-
-.contacto .formulario{
-    width: 40px;
-    height: auto;
-}
-
-@media only screen and (min-width: 480px){
-    .titulo h1{
-        font-size: 34px;
-    }
-    main{
-        height: 550px;
-    }
-    .formulario{
-        width: 300px;
-    }
-}
-
-@media only screen and (min-width: 767px){
-    .titulo h1{
-        font-size: 40px;
-    }
-    main{
-        height: 450px;
-    }
-    
-}
-
-@media only screen and (min-width:1023px){
-    .titulo h1{
-        font-size: 60px;
-    }
-}
+@media only screen and (min-width: 1023px) {
+  .titulo h1 {
+    font-size: 60px;
+  }
+}/*# sourceMappingURL=estilos.css.map */
